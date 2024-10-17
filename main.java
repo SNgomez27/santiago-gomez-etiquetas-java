@@ -1,9 +1,6 @@
-public class Main{
-		public statis void main (String[]args){
-		system.out.println(args.length);
-		if (args.legth ==0){
-			system.out.println ("No hay argumentos")
-		}else{
-		system.out.printlm("hay" + args.legth() + "argumentos");
+çpublic class Main{
+		public static  void main (String[]args){
+		for (int i = 0 ; args.length() < i,i++){
+		System.out.println("argumentos" + i + ":"args[i]);
 	}
 }
